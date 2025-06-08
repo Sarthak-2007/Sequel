@@ -32,11 +32,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8 // Or JavaVersion.VERSION_17 if specified by setup-java
-        targetCompatibility = JavaVersion.VERSION_1_8 // Or JavaVersion.VERSION_17
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "1.8" // Or "17"
+        jvmTarget = "17"
     }
     buildFeatures {
         compose = true
